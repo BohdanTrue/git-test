@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
         System.out.println("Сума а та b = " + sum(a,b));
         System.out.println("а помонжити на b = " + multiply(a,b));
